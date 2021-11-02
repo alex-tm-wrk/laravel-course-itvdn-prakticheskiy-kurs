@@ -17,7 +17,7 @@ class GallerySeeder extends Seeder
     {
         Product::all()->each(function ($product) {
            $gallery = Gallery::factory()
-               ->count(1)
+//               ->count(1)
                ->create();
 
            $product->gallery()->save($gallery);

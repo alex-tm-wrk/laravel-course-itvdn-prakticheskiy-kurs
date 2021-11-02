@@ -23,14 +23,14 @@ class GalleryFactory extends Factory
     {
         return [
             'product_id' => null,
-            'photos' => serialize(
-                [
-                    '0' => 'https://loremflickr.com/640/480/computer',
-                    '1' => 'https://loremflickr.com/640/480/computer',
-                    '2' => 'https://loremflickr.com/640/480/computer',
-                    '3' => 'https://loremflickr.com/640/480/computer'
-                ]
-            ),
+//            'photos' => serialize(
+//                [
+//                    "0" => "https://loremflickr.com/640/480/computer",
+//                    "1" => "https://loremflickr.com/640/480/computer",
+//                    "2" => "https://loremflickr.com/640/480/computer",
+//                    "3" => "https://loremflickr.com/640/480/computer"
+//                ]
+//            ),
         ];
     }
 }

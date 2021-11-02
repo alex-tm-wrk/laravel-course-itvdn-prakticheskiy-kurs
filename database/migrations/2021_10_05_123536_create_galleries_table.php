@@ -17,7 +17,7 @@ class CreateGalleriesTable extends Migration
             $table->id();
             $table->foreignId('product_id')->nullable()->constrained();
 //            $table->integer('product_id')->unsigned()->nullable();
-            $table->json('photos');
+//            $table->json('photos');
             $table->timestamps();
 
 //            $table->foreign('product_id')->references('id')->on('products');

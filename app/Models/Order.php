@@ -19,4 +19,9 @@ class Order extends Model
         'comment',
         'total',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
